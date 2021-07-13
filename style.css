@@ -1,4 +1,24 @@
 body {
     font-family: monospace, sans-serif;
     padding: 10px;
+    font-size: 16px;
 }
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #0C3B01;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #135902;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* strong {
+    color: #135902;
+} */
