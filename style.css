@@ -17,8 +17,13 @@ h2 {
 
 h3 {
     text-align: center;
+    color: #0C3B01;
 }
 
-/* strong {
+strong {
     color: #135902;
-} */
+}
+
+a {
+    color: #135902;
+}
