@@ -35,23 +35,36 @@ img {
     max-width: 100%;
 }
 
-@media (max-width: 768px) {
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-}
-
 #img-caption {
     text-align: center;
     margin-top: 5px;
 }
 
 #tribute-info {
-    width: 70%;
-    display: block;
-    margin: auto;
+    margin: 0px 120px 0px 120px;
 }
 li {
     padding: 5px;
+}
+p {
+    text-align: center;
+}
+blockquote {
+    background-color:#E1EEDE;
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+    color: RGBA(00, 00, 00, 0.7);
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    #tribute-info {
+        margin: 0px 0px 0px 0px;
+    }
 }
